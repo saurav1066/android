@@ -9,6 +9,7 @@
     android:background="#003366"
     >
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,6 +24,7 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -35,16 +37,20 @@
                 android:layout_weight="1">
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                >
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:autoSizeTextType="uniform"
+                    android:autoSizeStepGranularity="19dp"
                     android:text="Facebook"
+                    text
                     android:textColor="#ffffff"
                     android:textAlignment="center"/>
 
@@ -121,7 +127,8 @@
             android:background="#0000FF"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="14dp">
+            android:layout_marginBottom="14dp"
+            android:contextClickable="true">
 
             <TextView
                 android:layout_width="match_parent"
