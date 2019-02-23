@@ -43,10 +43,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:autoSizeTextType="uniform"
                     android:text="Facebook"
                     android:textColor="#ffffff"
-                    android:padding='30dp'
-                    android:textSize="16dp"/>
+                    android:textAlignment="center"/>
 
             </LinearLayout>
 
@@ -78,51 +78,56 @@
         >
 
         <LinearLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#ffffff"
             android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
             android:layout_marginBottom="14dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
                 android:text="Email or Phone"
-                android:padding="12dp"/>
+                />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#ffffff"
             android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
             android:layout_marginBottom="14dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:autoSizeTextType="uniform"
                 android:text="Password"
-                android:padding="12dp"/>
+                />
 
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="380dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#0000FF"
             android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
             android:layout_marginBottom="14dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Log In"
-                android:padding="12dp"
+                android:autoSizeTextType="uniform"
                 android:textAlignment="center"
                 android:textSize="18dp"
                 android:textColor="#ffffff"/>
@@ -132,15 +137,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Forgot Password?"
-                android:padding="12dp"
+                android:autoSizeTextType="uniform"
                 android:textAlignment="center"
-                android:textSize="14dp"
                 android:textColor="#ffffff"
                 />
 
@@ -174,15 +180,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="20dp"
                 >
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Sign Up For Facebook"
-                    android:padding="12dp"
+                    android:autoSizeTextType="uniform"
                     android:textAlignment="center"
                     android:textSize="14dp"
                     android:textColor="#ffffff"/>
@@ -195,14 +202,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="4"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="7dp"
                 android:layout_marginLeft="10dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="?"
-                    android:padding="12dp"
+                    android:autoSizeTextType="uniform"
                     android:textAlignment="center"
                     android:textSize="14dp"
                     android:textColor="#ffffff"/>
