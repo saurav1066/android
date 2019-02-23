@@ -153,6 +153,7 @@
                 android:layout_height="match_parent"
                 android:text="Forgot Password?"
                 android:autoSizeTextType="uniform"
+                android:autoSizeStepGranularity="12dp"
                 android:textAlignment="center"
                 android:textColor="#ffffff"
                 />
